@@ -1,0 +1,45 @@
+# OS and Python related garbage
+*.egg-info
+*.pyc
+.DS_Store
+.DS_Store?
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# by convention all files and directories starting with underscore should be
+# ignored; apart from that these directories are also ignored
+._*
+build
+html
+env
+logs
+tmp
+debug.log
+
+# IDEs and tools
+*.sublime-project
+*.sublime-workspace
+.project
+.pydev
+.pydevproject
+.settings
+node_modules
+npm-debug.log
+
+# profiling
+*.prof
+*.lprof
+
+# testing
+.coverage
+.tox
+coverage_reports
+htmlcov
+
+# setuptools
+scoreit.egg-info
+dist
+
+# everything else
+activate.bat
